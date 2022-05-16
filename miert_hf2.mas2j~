@@ -1,0 +1,12 @@
+MAS miert_hf2 {
+
+	infrastructure: Centralised
+
+	environment: miert_hf2_environment
+
+	agents:
+		agent1 sample_agent;
+
+	aslSourcePath:
+		"src/asl";
+}

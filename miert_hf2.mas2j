@@ -1,0 +1,18 @@
+MAS distributed_taxi_system {
+	infrastructure: Centralised
+	environment: Miert_HF_Environment(3, 3)
+	// parameters:
+	//      1. number of clients
+	//      2. number of taxis
+
+    //executionControl: jason.control.ExecutionControlGUI
+
+	agents:
+		headquarters ;
+		client #3;
+		courier #3;
+
+	aslSourcePath: "src/asl";
+
+
+}
